@@ -12,11 +12,6 @@ function closeSuporte(){
     document.querySelector('.cor').style.display = 'block'
 }
 
-    
-
-    
-
-
 
 function fechar(){
     document.getElementById('pop-up').style.display = 'none'
@@ -74,7 +69,6 @@ const seta = document.querySelector('.seta')
   const resultado = document.getElementById('resultado')
   const set = document.querySelector('.setaa')
   const bt = document.querySelector('.bt')
-  //da e tira a classe ativo
   btn.onclick = function(){
       this.classList.toggle('active')
       container.classList.toggle('active')
@@ -113,26 +107,14 @@ const seta = document.querySelector('.seta')
         console.log('foi')
       }else{
         seta.src = "seta.svg"
-        poly.src = "poli.svg"
+        poly.src = "poly.svg"
         set.src = "seta.svg"
         console.log
       }
-        
-      
-      
-     
-  
-      
+
       calculadora.classList.toggle('active')
       console.log('aaa')
-     
-  
-      
   }
-
-
-
-
 
   function insert(num){
     var numero = document.getElementById('resultado').innerHTML;
