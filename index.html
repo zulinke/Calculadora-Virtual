@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>calculadora</title>
+</head>
+<body class="container"  ondragstart="return false" onselectstart="return false">
+    <div >
+        <div class="calculadora">
+        <a onclick="abrir()" href="#"><img src="settings.svg" alt=""></a>
+            <p  id="resultado"></p>
+            <table class="calcu">
+                <tr>
+                    <td><button  id="trocar"class="botao b9"onclick="insert('9'); soml()">9</button></td>
+                    <td><button  id="trocar"class="botao b8"onclick="insert('8'); soml()">8</button></td>
+                    <td><button id="trocar" class="botao b7"onclick="insert('7'); soml()">7</button></td>
+                    <td><button class="botao bd"onclick="insert('/'); soml()"><p>÷</p></button></td>
+    
+                </tr>
+                <tr>
+                    <td><button class="botao b6" onclick="insert('6'); soml()">6</button></td>
+                    <td><button class="botao b5"onclick="insert('5'); soml()">5</button></td>
+                    <td><button class="botao b4"onclick="insert('4'); soml()">4</button></td>
+                    <td><button class="botao bs"onclick="insert('+'); soml()"><P>+</P></button></td>  
+                </tr>
+                <tr>
+                    <td><button class="botao b3"onclick="insert('3'); soml()">3</button></td>
+                    <td><button class="botao b2"onclick="insert('2'); soml()">2</button></td>
+                    <td><button class="botao b1"onclick="insert('1'); soml()">1</button></td>
+                    <td><button class="botao bm"onclick="insert('-'); soml()"><P>-</P></button></td>  
+                </tr>
+                <tr>
+                    <td><button class="botao amarelo-btn"onclick="clean(); soml()">ac</button></td>
+                    <td><button class="botao b0"onclick="insert('0'); soml(); soml()">0</button></td>
+                    <td><button class="botao amarelo-btn bt"onclick="caucular(); soml()"><P>=</P></button></td>
+                    <td><button class="botao bmu"onclick="insert('*'); soml()" ><P>x</P></button></td>  
+                </tr>
+            </table>
+            </div>
+     </div>
+    <div id="pop-up">
+        <div class="cor cor2">
+            <a href="#" onclick="fechar()"><img src="seta.svg" class="seta"></a>
+            <p class="ai">configurações</p>
+            <div class="temas">
+               
+
+               <p class="tema.p">tema</p>
+               <div class="botoes">
+    
+               </div>
+               <label class="toggle">
+                <input  class="toggle-checkbox btn" id="tema" onclick="seta()"   type="checkbox">
+                <div class="toggle-switch"></div>
+                
+              </label>
+              <p class="som">som</p>
+              
+              
+              <label class="toggle">
+                <input class="toggle-checkbox btn" id="som" onclick="audio()"  type="checkbox" >
+                <div class="toggle-switch popo"></div>
+                 </div>
+             
+              </label>
+
+              <a href="#" class="suporte-p" onclick="openSuporte()"><button class="suporte"><p class="suporte-p">suporte </p></button></a>
+            </div>
+            </div>
+            <div class="suuporte">
+
+                <a href="#" onclick="closeSuporte()"><img src="setinha.svg" class="setaa"></a>
+                <p class="p-suporte">suporte</p>
+
+
+                <div class="master">
+                   <textarea name="" class="textarea" style="resize: none;" id="" cols="30" rows="10" placeholder="Descreva seu problema"></textarea>
+                    <div class="imagem">
+                        <img src="poli.svg" id="poly" class="img" alt="">
+                    </div>
+
+                </div>
+
+                <a href="#"> <div class="termos">
+                <p class="ter">Termos de politica e privacidade</p>
+              </div>
+              </a>
+              <a href="#"><div class="dados">
+                <p>Dados do aplicativo</p>
+              </div>
+              </a>
+        </div>
+                
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
