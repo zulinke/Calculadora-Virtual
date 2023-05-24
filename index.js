@@ -107,7 +107,7 @@ const seta = document.querySelector('.seta')
         console.log('foi')
       }else{
         seta.src = "seta.svg"
-        poly.src = "poly.svg"
+        poly.src = "poli.svg"
         set.src = "seta.svg"
         console.log
       }
