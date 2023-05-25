@@ -740,7 +740,7 @@ body {
     box-sizing: border-box;
   }
 
-.termos p{
+.termos a{
   font-family: 'Chakra Petch';
   font-style: normal;
   font-weight: 400;
