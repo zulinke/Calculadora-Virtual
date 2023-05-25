@@ -6,7 +6,7 @@
 }
 
 body {
-    background: #3E3758;
+  background: #3E3758;
 }
 #pop-up{
     display: none;
@@ -37,33 +37,33 @@ body {
   flex-grow: 0;
   z-index: 0;
   margin-left: 10px;
-
 }
 
+
+
 .botao {
-color: #3E3758;
-box-sizing: border-box;
-width: 60px;
-height: 60px;
-background: #E2E2E2;
-border: 3px solid #2B2640;
-box-shadow: 4px 4px 0px #524545;
-border-radius: 10px;
-align-items: center;
-text-align: center;
-flex: none;
-order: 0;
-flex-grow: 0;
-font-size: 20px;
-margin-left: 7px;
-margin-top: 9px;
-font-family: 'Chakra Petch', sans-serif;
-font-style: normal;
-font-weight: 400;
-font-size: 40px;
-line-height: 52px;
-transform: translateY(-10px);
-padding-left: 1.5px;   
+  box-sizing: border-box;
+  width: 60px;
+  height: 60px;
+  background: #E2E2E2;
+  border: 3px solid #2B2640;
+  box-shadow: 4px 4px 0px #524545;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-size: 20px;
+  margin-left: 7px;
+  margin-top: 9px;
+  font-family: 'Chakra Petch', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  transform: translateY(-10px);
+  padding-left: 1.5px;   
 }
 
 .botao:active {
@@ -161,7 +161,7 @@ padding-left: 1.5px;
   flex-direction: row;
   justify-content: center;
   align-items: flex-start;
-  padding: 2px;
+  padding: 0px;
   gap: 10px;
   isolation: isolate;
   width: 56px;
@@ -255,24 +255,24 @@ padding-left: 1.5px;
   box-sizing: border-box;
 }
 .container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100vh;
-    background-color:#123;
-    transition: background .5s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color:#123;
+  transition: background .5s;
 }
  .container.active{
-    background-color: #000;
+  background-color: #000;
 
 }
-  .som p{
-    position: absolute;
-    margin-top: 57%;
-    left: 13%;
-    font-size: 20px;
-  }
+.som p{
+  position: absolute;
+  margin-top: 57%;
+  left: 13%;
+  font-size: 20px;
+}
   
 .suporte {
   box-sizing: border-box;
@@ -740,7 +740,7 @@ body {
     box-sizing: border-box;
   }
 
-.termos a{
+.termos p{
   font-family: 'Chakra Petch';
   font-style: normal;
   font-weight: 400;
